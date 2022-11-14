@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+  font-family:sans-serif;
+  font-size: 18px;
+  border-top: 10px solid #111313;
+  background-color: rgb(251, 242, 242);
+  }
+button{
+  background-color: #c74b4b;
+  border-bottom-left-radius:  50%;
+  border-bottom-right-radius:  50%;
+  border-top-left-radius:  50%;
+  border-top-right-radius:  50%;
+  border-color: #c74b4b;
+  font-size: 30px;
+  width:40px;
+  height:40px;
+  
+  
+}
+
+h3{
+  font-size: 30px;
+}
+
+h2{
+  margin-bottom: 20px;
+  font-size: 55px;
+}
+
+
+.autor{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: 200px;
+}
+.main{
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+  background-color:rgb(255, 254, 253);
+  padding: 20px 20px; /* top bottom left right */
+  margin-bottom: 100px;
+}
+
+nav{
+  margin-right: 200px;
+}
+
+nav a:link { 
+    margin-right: 10px;  
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+  }
+
+a:last-child{
+    background-color: #c74b4b;
+    padding: 15px;
+    border-radius: 5px;
+    color:white;
+  }
+
+.row{
+    display: flex;
+    gap: 75px;
+    align-items: flex-start; 
+  }
+
+header{
+  padding-bottom: 30px;
+}
+.descrição{
+  display:inline-block;
+  font-size: 15px; 
+  font-size: 18px;
+   
+}
+
+.say{
+    background-color: #c74b4b;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline; 
+    margin-top:  30px;
+
+}
+
+.valor{
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+    margin-top: 100px;  
+    margin-right: 50px; 
+}
+
+.valor1{
+    background-color: #f39696;
+    padding:15px 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-align: center;
+    display:inline;
+}
+
+.valor2{
+    background-color: #f39696;
+    padding:15px 25px;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-align: center;
+    display:inline;  
+}
+
+.valor3{
+    background-color: #f39696;
+    padding:15px 30px;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-align: center;
+    display:inline;
+   
+}
+
+.pal{
+  font-family: sans-serif;
+  font-size: 10px;
+  display:flex;
+}
+
+aside {
+    flex-basis: 300px;
+    margin-right: 200px;
+    margin-bottom: 50px;    
+}
+
+article{
+    flex-basis: 825px;
+    margin-left: 200px;
+    
+  }
+
+img{
+  border-radius: 20px;
+}
+.teste{
+  text-decoration: line-through;
+  display: inline;
+}
